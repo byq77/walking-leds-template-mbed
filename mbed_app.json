@@ -1,0 +1,16 @@
+{
+    "config": {},
+    "macros": [],
+    "target_overrides": {
+        "WALKING_LEDS": {
+            "events.shared-dispatch-from-application": 1,
+            "events.shared-eventsize": 512,
+            "platform.default-serial-baud-rate": 115200,
+            "platform.stdio-baud-rate": 115200,
+            "ble-button.debug": 1,
+            "target.features_add": ["BLE"],
+            "target.extra_labels_add": ["CORDIO", "CORDIO_LL", "SOFTDEVICE_NONE", "NORDIC_CORDIO"],
+            "target.extra_labels_remove": ["SOFTDEVICE_COMMON", "SOFTDEVICE_S132_FULL", "NORDIC_SOFTDEVICE"]
+        }
+    }
+}

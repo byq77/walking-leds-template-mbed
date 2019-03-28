@@ -1,0 +1,12 @@
+{
+    "name": "ble-button",
+    "config": {
+        "debug":
+        {
+            "help": "Bluetooth debug information",
+            "macro_name": "DEBUG_BLUETOOTH",
+            "value": 0
+        }
+    }
+}
+
